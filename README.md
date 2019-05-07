@@ -21,6 +21,7 @@ You can also use a GUI for Git but knowing command line will make things much ea
 You can use any editor you like, but to participate in live code collaboration you *will* need VS Code.
 Get the official installer [here](https://code.visualstudio.com/).
 Launch VS Code and in **Extensions** (*Ctrl+Shift+X*) search 'VS Live Share' and install. I also highly recommend installing the 'Python' package from Microsoft and  the 'Rainbow CSV' package, for improved Python and CSV support.
+To enable the 'code' bash command, open Command Palette and type 'shell command' then select 'Install code command PATH'. 
 
 At each meeting, links to join a live code collaboration will be sent out through Slack.
 
@@ -49,7 +50,7 @@ Copy the repository to your local machine, adding it as a remote - Use the name 
 ```bash
 $ git config --global user.name "Jonh Doe"
 $ git config --global user.email  jonhdoe@example.com
-$ git clone https://github.com/datascienceslugs/dss-titanic
+$ git clone https://github.com/datascienceslugs/dss-earthquakes
 ```
 
 #### Accessing the project
